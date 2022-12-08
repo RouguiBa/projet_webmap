@@ -16,35 +16,35 @@
     "description": "Nombre de décès de personne dont l'age est compris entre 10 et 20ans rapporté aux nombres de décès du département."
     },
     {
-    "nom": "Age>90ans",
+    "nom": "20ans<Age<30ans",
     "description": "Nombre de décès de personne agé de plus de 90 ans rapporté aux nombres de décès du département."
     },
     {
-    "nom": 93,
+    "nom": "40ans<Age<50ans",
     "description": "Seine-Saint-Denis"
     },
     {
-    "nom": 93,
+    "nom": "Incendie",
     "description": "Seine-Saint-Denis"
     },
     {
-    "nom": 93,
+    "nom": "Noyade",
     "description": "Seine-Saint-Denis"
     },
     {
-    "nom": 93,
+    "nom": "Cancer",
     "description": "Seine-Saint-Denis"
     },
     {
-    "nom": 93,
+    "nom": "Meurtre",
     "description": "Seine-Saint-Denis"
     },
     {
-    "nom": 93,
+    "nom": "Accident de la route",
     "description": "Seine-Saint-Denis"
     },
     {
-    "nom": 93,
+    "nom":"Suicide",
     "description": "Seine-Saint-Denis"
     }
 ]

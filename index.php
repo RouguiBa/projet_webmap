@@ -18,7 +18,7 @@
     </div>
     <div id="map"></div>
     <form method="post" action="#" id="recherche">
-    <div id="select">Sélèction 
+    <div id="select">Sélection 
         <p><select id="select_departements">
         </select></p>
         <p><select id="select_stat">
