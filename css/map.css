@@ -1,0 +1,43 @@
+body {
+    background-color: #ffffff;
+    color:white;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 15vw auto 20vw;
+    grid-template-rows: 10vh auto 30vh;	
+  }
+#entete{
+    margin: 0;
+    background-color: #ffffff;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    text-align: center;
+}
+
+#entete > h1 {
+  margin:0;
+  margin-top: 1vh;
+  font-size: 5vh;
+  color: black;
+}
+
+#map { 
+    grid-column: 1/ span 3;
+    grid-row: 2/ span 3;
+    margin :0;
+    border:solid 2px black;
+    height: 89vh;
+    width: 80vw; 
+}
+#inventaire {
+    grid-column: 3;
+    grid-row:2/ span 3;
+  }
+
+#recherche{
+    grid-column: 3;
+    grid-row:2/ span 3;
+    color: black;
+    text-align: center;
+
+}

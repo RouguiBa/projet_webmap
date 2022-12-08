@@ -1,0 +1,50 @@
+[
+    {
+    "nom": "Age",
+    "description": "Age moyen des pers`onnes décédées"
+    },
+    {
+    "nom": "Décès moyen du mois",
+    "description": "Nombre de décès du mois rapporté aux nombres de décès de l’année du département."
+    },
+    {
+    "nom": "Age<10ans",
+    "description": "Nombre de décès d’enfants de moins de dix ans rapporté aux nombres de décès du département."
+    },
+    {
+    "nom": "10ans<Age<20ans",
+    "description": "Nombre de décès de personne dont l'age est compris entre 10 et 20ans rapporté aux nombres de décès du département."
+    },
+    {
+    "nom": "Age>90ans",
+    "description": "Nombre de décès de personne agé de plus de 90 ans rapporté aux nombres de décès du département."
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    },
+    {
+    "nom": 93,
+    "description": "Seine-Saint-Denis"
+    }
+]
