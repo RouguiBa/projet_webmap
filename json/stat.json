@@ -1,7 +1,7 @@
 [
     {
     "nom": "Age",
-    "description": "Age moyen des pers`onnes décédées"
+    "description": "Nombre de décès du mois rapporté aux nombres de décès de l’année du département."
     },
     {
     "nom": "Décès moyen du mois",
@@ -17,34 +17,34 @@
     },
     {
     "nom": "20ans<Age<30ans",
-    "description": "Nombre de décès de personne agé de plus de 90 ans rapporté aux nombres de décès du département."
+    "description": "Nombre de décès de personne dont l'age est compris entre 20 et 30ans rapporté aux nombres de décès du département."
     },
     {
-    "nom": "40ans<Age<50ans",
-    "description": "Seine-Saint-Denis"
+    "nom": "30ans<Age",
+    "description": "Nombre de décès de personne dont l'age est supérieur à 30 ans rapporté aux nombres de décès du département."
     },
     {
     "nom": "Incendie",
-    "description": "Seine-Saint-Denis"
+    "description": "Nombre de décès du mois du à un incendie rapporté aux nombres de décès du département."
     },
     {
     "nom": "Noyade",
-    "description": "Seine-Saint-Denis"
+    "description": "Nombre de décès du mois du à un noyade rapporté aux nombres de décès du département."
     },
     {
     "nom": "Cancer",
-    "description": "Seine-Saint-Denis"
+    "description": "Nombre de décès du mois du à un cancer rapporté aux nombres de décès du département."
     },
     {
     "nom": "Meurtre",
-    "description": "Seine-Saint-Denis"
+    "description": "Nombre de décès du mois du à un meurtre rapporté aux nombres de décès du département."
     },
     {
     "nom": "Accident de la route",
-    "description": "Seine-Saint-Denis"
+    "description": "Nombre de décès du mois du à un accident de la route rapporté aux nombres de décès du département."
     },
     {
     "nom":"Suicide",
-    "description": "Seine-Saint-Denis"
+    "description": "Nombre de décès du mois du à un suicide rapporté aux nombres de décès du département."
     }
 ]

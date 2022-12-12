@@ -9,6 +9,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var select_departements=document.getElementById("select_departements");
 var select_stats=document.getElementById("select_stat");
 var defaultOption_depart = document.createElement('option');
+var button= document.getElementById("button");
+var formulaire=document.getElementById("recherche");
 
 select_departements.length=0;
 defaultOption_depart.text = 'Choix du département';
@@ -78,4 +80,14 @@ function stat(eve){
   }
 )
 
+}
+
+formulaire.addEventListener("submit",envoi);
+
+function envoi(e){
+  e.preventDefault();
+  var depart_selectionne=select_departements.options[select_departements.selectedIndex].value
+  var stat_selectionne=select_stats.options[select_stats.selectedIndex].value
+  console.log("depart",depart_selectionne);
+  console.log("stats",stat_selectionne);
 }

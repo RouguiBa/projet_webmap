@@ -24,6 +24,7 @@
         <p><select id="select_stat">
             <option>---</option>
         </select></p>
+        <input id="button" type="submit" value="Envoyer">
     </div>
 </form>
     <script src="js/map.js"></script>
