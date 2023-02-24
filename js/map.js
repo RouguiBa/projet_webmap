@@ -153,7 +153,7 @@ intervals_timeline.push(interval);
             // ####################################################### //
                         // Obtenir le style pour chaque mois //
             // ####################################################### //
-
+            
 function getStyle1(month) {
     /**
      * Cette fonction prend en entrée un argument month qui représente le mois pour lequel on veut obtenir 
