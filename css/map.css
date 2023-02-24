@@ -1,6 +1,5 @@
 body {
-    background-color: #ffffff;
-    color:white;
+  background-color: #d2d9e1;
     margin: 0%;
     display: grid;
     grid-template-columns: 15vw auto 20vw;
@@ -8,7 +7,7 @@ body {
   }
 #entete{
     margin: 0;
-    background-color: #ffffff;
+    background-color: #d2d9e1;
     grid-column: 1 / span 3;
     grid-row: 1;
     text-align: center;
@@ -29,10 +28,6 @@ body {
     height: 89vh;
     width: 80vw; 
 }
-#inventaire {
-    grid-column: 3;
-    grid-row:2/ span 3;
-  }
 
 #recherche{
     grid-column: 3;
@@ -41,3 +36,105 @@ body {
     text-align: center;
 
 }
+.info {
+  line-height: 18px;
+  color: rgb(0, 0, 0);
+}
+  .legend {
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+  }
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33.33%;
+    transition: background-color 0.3s ease;
+  }
+
+  .month:hover {
+    background-color: lightgray;
+  }
+
+  .month.active {
+    background-color: darkgray;
+  }
+  .texte1{
+    border:solid 1px black;
+    background-color: rgb(249, 239, 239);
+    color: rgb(0, 0, 0);
+  }
+  #startButton{
+  align-items: center;
+  appearance: button;
+  background-color: #959aa0;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "RM Neue",sans-serif;
+  font-size: 14px;
+  height: 29px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+#startButton:hover {
+  background-color: #4d4f50;
+}
+#stopButton{
+  align-items: center;
+  appearance: button;
+  background-color: #959aa0;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "RM Neue",sans-serif;
+  font-size: 14px;
+  height: 29px;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#stopButton:hover {
+  background-color: #4d4f50;
+}
+
+#timeline {
+  background-color: #d2d9e1;
+}
+
+  
